@@ -1,0 +1,24 @@
+# data (large, redistributable from Kaggle)
+*.csv
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# model + tracking artifacts (regenerate by running the notebook)
+artifacts/
+mlflow.db
+mlartifacts/
+mlruns/
+
+# node
+node_modules/
+dist/
+
+# editors / os
+.DS_Store
+.env
