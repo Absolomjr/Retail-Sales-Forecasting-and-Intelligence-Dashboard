@@ -1,0 +1,1 @@
+Retail Sales Forecasting System: Predict the number of units of a specific product that a specific store will sell over the next 28 days using historical sales and related information.
