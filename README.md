@@ -190,9 +190,4 @@ authoritative list; anything else returns `404` with an explanation rather than 
 | **Part 5** | Linear Regression → Random Forest → XGBoost → LightGBM |
 | **Part 6** | Rolling-origin CV, WRMSSE, error analysis, Optuna, direct vs recursive, SHAP and partial dependence, MLflow, packaging |
 
-## Not done
 
-* Scaling to all 3,049 items (needs more RAM or chunked training)
-* Quantile or Tweedie objectives for the intermittent tail — the mean forecast never predicts a spike
-* WRMSSE across all 12 M5 aggregation levels (bottom level only here)
-* Authentication, rate limiting, and a model-registry promotion flow
